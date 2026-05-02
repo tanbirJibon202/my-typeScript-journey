@@ -27,5 +27,5 @@ const ChowdhuryShaheb: ManagerEmployee = {
   employeeId: "EMP12345",
   phoneNo: "123-456-7890",
   designation: "Project Manager",
-  teamSize: 20;
+  teamSize: 20,
 };
