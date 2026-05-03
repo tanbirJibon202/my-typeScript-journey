@@ -15,17 +15,20 @@ const isElligibleList: GenericArray<boolean> = [true, false, true, true];
 // sqrFunc(8);
 
 type Cordinates<X, Y> = [X, Y];
-const cordinates_1: Cordinates<string, string> = ["20","30"];
-const cordinates_2: Cordinates<number, number> = [20,30];
+const cordinates_1: Cordinates<string, string> = ["20", "30"];
+const cordinates_2: Cordinates<number, number> = [20, 30];
 
-
-const userList: GenericArray<{ name: string; age: number }> = [
+type User = {
+  name: string;
+  age: number;
+};
+const userList: GenericArray<User> = [
   {
-  name: "Alice",
-  age: 25,
+    name: "Alice",
+    age: 25,
   },
   {
-  name: "Bob",
-  age: 30,
-  }
-]
+    name: "Bob",
+    age: 30,
+  },
+];
