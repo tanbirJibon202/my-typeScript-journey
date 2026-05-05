@@ -35,7 +35,6 @@ class Counter {
     return (Counter.count = Counter.count - 1);
   }
 }
-
 console.log(Counter.increment());
 console.log(Counter.increment());
 console.log(Counter.increment());
