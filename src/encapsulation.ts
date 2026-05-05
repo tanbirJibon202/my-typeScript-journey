@@ -23,7 +23,6 @@ class bankAccount {
 }
 
 class StudentBankAccount extends bankAccount {
-  
 }
 
 const student = new StudentBankAccount(1, "Tanbir", 50000);
